@@ -1,0 +1,64 @@
+{
+  "dev":{
+    "on":false,
+    "page":"main.html"
+  },
+  "auth":"123",
+  "apicon":"http://localhost:8080/api/",
+  "users":{
+    "VOGCH":{"group":"DEV"},
+    "MURRY":{"group":"DEV"},
+    "KREBR":{"group":"DEV"},
+    "VOGGR":{"group":"RRCON"},
+    "VANJE":{"group":"RRCON"},
+    "WARKE":{"group":"RRCON"},
+    "RODVA":{"group":"RRCON"},
+    "MEAER":{"group":"RRDIS"},
+    "STEKE":{"group":"RRDIS"},
+    "FLODA":{"group":"RRMAN"}
+  },
+  "groups":{
+    "DEV":{
+      "main":"main.html",
+      "apps":["RRQ","RBT","DWM"]
+    },
+    "RRCON":{
+      "main":"main.html",
+      "apps":["RRQ"]
+    },
+    "RRDIS":{
+      "main":"main.html",
+      "apps":["RBT"]
+    },
+    "RRMAN":{
+      "main":"main.html",
+      "apps":["RRQ","RBT"]
+    }
+  },
+  "applist":{
+    "OC":{
+      "path":"Vogel - Office Documents/1 Structure/Vogel Org Chart/Vogel-Org-Chart.exe",
+      "icon":"../bin/repo/assets/icons/Org-Chart.png",
+      "alt":"OC",
+      "title":"Organization Chart"
+    },
+    "RRQ":{
+      "path":"Vogel - Res HVAC/IMDB/apps/Res-Quoter-win32-ia32/Res-Quoter.exe",
+      "icon":"../bin/repo/assets/icons/V-Mark-red.png",
+      "alt":"RRQ",
+      "title":"Residential Replacement Quoter"
+    },
+    "RBT":{
+      "path":"Vogel - Res HVAC/IMDB/apps/RESinstall-Board-win32-ia32/RESinstall-Board.exe",
+      "icon":"../bin/repo/assets/icons/Clipboard-01.png",
+      "alt":"RBT",
+      "title":"Residential Board Tool"
+    },
+    "DWM":{
+      "path":"Vogel - Service/Daily WOs/WO Emailer/WO-Emailer.exe",
+      "icon":"../bin/repo/assets/icons/envelope-01.png",
+      "alt":"DWM",
+      "title":"Daily WO Mailer"
+    }
+  }
+}

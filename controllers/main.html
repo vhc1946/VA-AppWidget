@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="../bin/gui/styles/widget-styles.css"/>
+    </head>
+    <body>
+      <div id="appgrid">
+      </div>
+    </body>
+    <script>
+      require('../bin/repo/gui/js/tools/vg-partials.js').writePart(__dirname + '/parts/vg-heads.txt', document.head);
+      require('../bin/repo/gui/js/tools/vg-partials.js').writePart(__dirname + '/parts/vg-notelist.txt', document.body, 'vg-toast-tr', true);
+    </script>
+    <script src='../bin/gui/main.js'>
+    </script>
+</html>

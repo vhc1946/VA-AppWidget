@@ -1,0 +1,20 @@
+body::-webkit-scrollbar{
+    display:none;
+}
+
+#appgrid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+#appgrid>img{
+    padding:5px;
+    width:50px;
+    filter: drop-shadow(0px 0px 5px white);
+}
+#appgrid>img:hover{
+    padding: 3px;
+    border: 2px solid red;
+    cursor: pointer;
+    border-radius: 4px;
+}
